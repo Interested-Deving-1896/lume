@@ -1,63 +1,75 @@
-# 🔥Lume
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# lume
 
-[![deno.land/x/lume](https://shield.deno.dev/x/lume)](https://deno.land/x/lume)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/lume)
 
-**Lume** is the Galician word for _fire_ but also a (yet another) static site
-generator for [Deno](https://deno.land/).
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-It’s inspired by other general-purpose static site generators, such as
-[Jekyll](https://jekyllrb.com/) and [Eleventy](https://www.11ty.dev/), but it’s
-faster, simpler and easier to use and configure, besides being super flexible.
+## Architecture
 
-- Supports **multiple file formats**, like Markdown, YAML, JavaScript,
-  TypeScript, JSX, [Vento](https://vento.js.org/) and Nunjucks, and it’s easy to
-  extend.
-- You can hook **any processor** to transform assets, like Terser for Javascript
-  or PostCSS for CSS.
-- It’s Deno: Forget about managing thousands of packages in `node_modules` or
-  complex bundlers. Lume only installs what you need. Clean, fast and secure.
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
----
+## Install
 
-- [See the docs to learn more](https://lume.land)
-- [Propose new ideas and get help at Discord](https://discord.gg/YbTmpACHWB)
-- If you like the project and want to provide some support
-  [see our Open Collective organization](https://opencollective.com/lume)
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
----
-
-## Quick start
-
-Make sure you have [Deno installed](https://deno.land/#installation).
-
-Create your first page, for example, using the Vento file `index.vto`:
-
-```vto
----
-title: Welcome to my page
----
-<html>
-  <head>
-    <title>{{ title }}</title>
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-  </body>
-</html>
+```bash
+git clone https://github.com/Interested-Deving-1896/lume.git
+cd lume
 ```
 
-Build it:
+## Usage
 
-```sh
-deno run -A https://deno.land/x/lume/cli.ts
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/lume`](https://github.com/Interested-Deving-1896/lume) and mirrored through:
+
+```
+Interested-Deving-1896/lume  ──►  OpenOS-Project-OSP/lume  ──►  OpenOS-Project-Ecosystem-OOC/lume
 ```
 
-This command will compile your documents to HTML and save them into the
-directory `_site`.
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
----
+## Contributors
 
-Please see [CHANGELOG](CHANGELOG.md) for information about the recent changes.
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-Licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/lume/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
